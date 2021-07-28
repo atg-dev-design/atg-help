@@ -1,4 +1,4 @@
---ATG Development & Design (ATG Electronics, LLC)
+H--ATG Development & Design (ATG Electronics, LLC)
 --For Help, Join Our Discord discord.gg/nrfGVD4jfQ
 -- command is /help in game chat
 
@@ -14,5 +14,5 @@ RegisterCommand("help", function()
 end, false)
 
 function msg (text)
-    TriggerEvent("chatMessage", "[Server]", {255,0,0}, text)
+    TriggerEvent("chatMessage", "[Help]", {255,0,0}, text)
 end 
